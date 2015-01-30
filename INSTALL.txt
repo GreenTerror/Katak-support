@@ -1,0 +1,11 @@
+Katak-support ver. 1.1.0 Installation Instructions
+
+  1) Load files to server/web host via FTP
+  2) Create MySQL database
+  3) Navigate to http://yourdomain.com/admin/admin.php
+  4) Navigate to Settings > Preferences and modify to your requirements.
+  5) Navigate to Settings > Attachments and modify to your requirements.
+    a) Create a new folder on the server.
+    b) To verify your path, create a new file named checkrootdir.php in the folder and add the following code
+       and the view the page in the browser:
+       <?php echo __DIR__; ?>
